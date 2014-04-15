@@ -1,0 +1,36 @@
+
+body{  
+background-image:-webkit-gradient(linear,left 0,left 100%,from(#3c3c3c),to(#222));
+background-image:-webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+background-image:-moz-linear-gradient(top,#3c3c3c 0,#222 100%);
+background-image:linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+background-repeat:repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c',endColorstr='#ff222222',GradientType=0);
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);    
+}
+
+#buttonsTransparent
+{
+    border: solid 2px #00b3ee;
+    color:#00b3ee;
+    text-decoration: none;   
+}
+
+.login {
+  width: 150px;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          margin-right: 10px;
+}

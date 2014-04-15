@@ -1,0 +1,86 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <table class='table table-bordered tabled-striped' id="tabla_jugador">
+            <thead>
+            <th>Imagen</th>
+            <th>Nombre Completo</th>
+            <th>Fecha Nacimiento</th>
+            <th>Celular</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </thead>
+        <tbody id="tabla_contenido_jugador">
+
+        </tbody>
+    </table>
+    <div id="perfil_jugador" style="display: none;">
+        <p style="text-align: left">
+             <a href="JavaScript:mostrarLista()" class="btn btn-info">Ver Lista</a>
+        </p>
+        <div class="span4"  id="imagen_jugador">
+            <h1 id="nombre_jugador" style="text-align: center;">Jamez rodriguez</h1>
+            <img id="imagen" src="../../../recursos/imagenes/james.jpg"/>
+        </div>
+        <div class="span8" id="fichatecnica">
+            <center>
+                <h3>Ficha técnica</h3>
+            </center>
+            <table class='table'>
+                <tr>
+                    <td style="text-align: right;"><strong>Fecha Nacimiento</strong></td>
+                    <td style="text-align: left;" id="fecha_nacimiento">21/07/1989</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; width: 50%"><strong>Edad</strong></td>
+                    <td style="text-align: left; width: 50%" id="edad">21 años</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><strong>Nacionalidad</strong></td>
+                    <td style="text-align: left;" id="nacionalidad">Colomb</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><strong>Estatura</strong></td>
+                    <td style="text-align: left;" id="estatura">1.81 mts</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><strong>Peso</strong></td>
+                    <td style="text-align: left;" id="peso">65 kg</td>
+                </tr>
+            </table>
+            <center>
+                <h3>Contacto</h3>
+            </center>
+            <table class='table'>
+                <tr>
+                    <td style="text-align: right;"><strong>Email</strong></td>
+                    <td style="text-align: left;" id="email">cperez354@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; width: 50%"><strong>Telefono fijo</strong></td>
+                    <td style="text-align: left; width: 50%" id="telefono">+578753971</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><strong>Celular</strong></td>
+                    <td style="text-align: left;" id="celular">3016956032</td>
+                </tr>
+            </table>
+        </div>
+        <div id="video_youtube" class="span4">
+        </div>
+        <div id="Perfil" class="span8">
+            <h3 style="text-align: center;"><strong>Perfil</strong></h3>
+            <p id="perfil_jugador_seleccionado" style="margin-left: 5%;margin-right: 5%;margin-top:2%; text-align: justify">        
+            </p>
+        </div>
+    </div>
+</body>
+</html>
